@@ -1,0 +1,208 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+      <style>   
+           html {
+                     overflow-y: scroll;
+                 }
+body {
+    background-color: #BFC9CA;
+}
+
+.a{
+                   background-color:#3498DB;
+	  border:none;
+                     margin: 5;
+                   height :80px;
+                   color:black;
+                   font-size:72px;
+                   padding :25px;
+                   text-align:center;
+                 
+                  }
+   
+     input[type=text] {
+    width: 15%;
+    box-sizing: border-box;
+    border: 1px solid orange;
+    border-radius: 2px;
+    margin-left: 20;
+    font-size: 11px;
+    background-color: white;
+       }
+.dropbtn {
+ background-color:#3498DB  ;
+   border: 2px solid #1B4F72;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+   border-radius : 8px;
+   width:185px;
+}
+.dropbtn:hover {
+    background-color:#1B4F72; /* Green */
+    color: white;
+}
+.b{
+      border: none;
+       background-color:#BFC9CA;
+       width: 200px;
+      }
+.c{
+      border:none;
+      height:35px;
+     align:left;
+    width:1080px;
+     padding:10px;
+       border-radius : 8px;
+   background-color:#3498DB ; 
+}
+.mySlides {
+	display:none;
+	}
+.slideshow{
+	align:center;
+	border:none;
+	padding:20px;
+                margin-left:80px;
+	}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+           }
+ </style>
+</head>        
+<body>
+   <div class="a" background-color:#616A6B>
+          4Wheelies.com
+      </div>
+<div class="b"style="float:left;">
+  <div class="dropdown"style="float:top;">
+      <a href="index.html">
+      <button class="dropbtn">Home</button>
+   </a>
+  </div>
+      <div class="dropdown"style="float:top;">
+      <a href="volkswagen.html">
+      <button class="dropbtn">Volkswagen</button>
+   </a>
+  </div>
+      <div>
+     <div class="dropdown"style="float:top;">
+     <a href="ameo.html"><button class="dropbtn">Ameo</button></a>
+      </div>
+</div>
+     <div>
+    <div class="dropdown" style="float:top;">
+      <a href="polo.html"><button class="dropbtn">Polo GT</button></a>
+        </div>
+</div>
+    <div>
+     <div class="dropdown"style="float:top;">
+     <a href="crosspolo.html"><button class="dropbtn">Cross Polo</button></a>
+  </div>
+</div>
+ <div>
+     <div class="dropdown"style="float:top;">
+      <a href="vento.html"><button class="dropbtn">Vento</button></a>
+    </div>
+</div>
+ <div>
+     <div class="dropdown"style="float:top;">
+      <a href="jetta.html"><button class="dropbtn">Jetta</button></a>
+    </div>
+</div>
+<div>
+     <div class="dropdown"style="float:top;">
+      <a href="beetle.html"><button class="dropbtn">Beetle</button></a>
+    </div>
+</div>
+
+</div>
+     <div class="c"style="float:left;">
+<h3 align="center"><I> VOLKSWAGEN</I></h3>
+<script>
+function abc()
+{
+var city=f1.c1.selectedIndex;
+if(city==1)
+{
+window.location="volkswagenp.html";
+return false;
+}
+if(city==2)
+{
+window.location="volkswagenm.html";
+return false;
+}
+if(city==3)
+{
+window.location="volkswagenec.html";
+return false;
+}
+}
+</script>
+<body>
+<form name="f1" onchange="return abc();">
+sortby:
+<select name="c1">
+<option>Select</option>selected
+<option>price</option>
+<option>milage</option>
+</select>
+</form>
+<br>
+<br>
+<div class="e" >
+<table>
+  <tr>
+    <th>CarName</th>
+    <th> image </th>
+    <th>Price</th>
+      </tr>
+  <tr>
+    <td>VOLKSWAGEN NEW POLO</td>
+    <td><img src="polo exterior.jpg"height="100px"></td>
+    <td><I>4.89L onwards</I></td>
+     </tr>
+  <tr>
+<td>AMEO</td>
+    <td><img src="Ameo exterior.jpg" height="100px"></td>
+    <td><I>5.13L onwards</I></td>
+    </tr>
+  <tr>
+<td>CROSS POLO</td>
+    <td><img src="CrossP exterior.jpg" height="100px"></td>
+    <td>6.94L onwards</td>
+      </tr>
+  <tr>
+<td>VENTO</td>
+    <td><img src="Vento exterior.jpg" height="100px"></td>
+    <td>7.85L onwards</td>
+      </tr>
+  <tr>
+<td>POLO GT</td>
+    <td><img src="GT exe1.jpg" height="100px"></td>
+    <td>9.2L onwards</td>
+    </tr>
+  <tr>
+<td>JETTA</td>
+    <td><img src="Jetta exterior.jpg" height="100px"></td>
+    <td>13.51L onwards</td>
+      </tr>
+<tr>
+<td>BEETLE</td>
+    <td><img src="Beetle exterior.jpg" height="100px"></td>
+    <td>27.81L onwards</td>
+      </tr>
+
+</table>
+</div>
+</div>
+</div>
+</body>
+</html>
