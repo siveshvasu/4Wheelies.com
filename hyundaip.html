@@ -1,0 +1,242 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+      <style>   
+           html {
+                     overflow-y: scroll;
+                 }
+body {
+    background-color: #BFC9CA;
+}
+
+.a{
+                   background-color:#3498DB;
+	  border:none;
+                     margin: 5;
+                   height :80px;
+                   color:black;
+                   font-size:72px;
+                   padding :25px;
+                   text-align:center;
+                 
+                  }
+   
+     input[type=text] {
+    width: 15%;
+    box-sizing: border-box;
+    border: 1px solid orange;
+    border-radius: 2px;
+    margin-left: 20;
+    font-size: 11px;
+    background-color: white;
+       }
+.dropbtn {
+ background-color:#3498DB  ;
+   border: 2px solid #1B4F72;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+   border-radius : 8px;
+   width:185px;
+}
+.dropbtn:hover {
+    background-color:#1B4F72; /* Green */
+    color: white;
+}
+.b{
+      border: none;
+       background-color:#BFC9CA;
+       width: 200px;
+      }
+.c{
+      border:none;
+      height:35px;
+     align:left;
+    width:1080px;
+     padding:10px;
+       border-radius : 8px;
+   background-color:#3498DB ; 
+}
+.mySlides {
+	display:none;
+	}
+.slideshow{
+	align:center;
+	border:none;
+	padding:20px;
+                margin-left:80px;
+	}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+           }
+ </style>
+</head>        
+<body>
+   <div class="a" background-color:#616A6B>
+          4Wheelies.com
+      </div>
+<div class="b"style="float:left;">
+  <div class="dropdown"style="float:top;">
+      <a href="index.html">
+      <button class="dropbtn">Home</button>
+   </a>
+  </div>
+      <div class="dropdown"style="float:top;">
+      <a href="hyundai.html">
+      <button class="dropbtn">Hyundai</button>
+   </a>
+  </div>
+         <div>
+     <div class="dropdown"style="float:top;">
+     <a href="elentra.html"><button class="dropbtn">Elantra</button></a>
+      </div>
+</div>
+     <div>
+    <div class="dropdown" style="float:top;">
+     <a href="eon.html"><button class="dropbtn">Eon</button></a>
+        </div>
+</div>
+    <div>
+     <div class="dropdown"style="float:top;">
+<a href="i10.html"><button class="dropbtn">Hyundai i10</button></a>
+  </div>
+</div>
+ <div>
+     <div class="dropdown"style="float:top;">
+     <a href="grand.html"><button class="dropbtn">Grand i10</button></a>
+    </div>
+</div>
+ <div>
+     <div class="dropdown"style="float:top;">
+     <a href="xcent.html"><button class="dropbtn">Xcent</button></a>
+    </div>
+</div>
+<div>
+     <div class="dropdown"style="float:top;">
+     <a href="elite.html"><button class="dropbtn">Elite i20</button></a>
+    </div>
+</div>
+<div>
+     <div class="dropdown"style="float:top;">
+     <a href="i20.html"><button class="dropbtn">i20 Active</button></a>
+    </div>
+</div>
+<div>
+     <div class="dropdown"style="float:top;">
+     <a href="verna.html"><button class="dropbtn">Verna</button></a>
+    </div>
+</div>
+<div>
+     <div class="dropdown"style="float:top;">
+     <a href="creata.html"><button class="dropbtn">Creta</button></a>
+    </div>
+</div>
+<div>
+     <div class="dropdown"style="float:top;">
+     <a href="santafe.html"><button class="dropbtn">Santafe</button></a>
+    </div>
+</div>
+</div>
+     <div class="c"style="float:left;">
+<h3 align="center"><I>HYUNDAI</I></h3>
+<script>
+function abc()
+{
+var city=f1.c1.selectedIndex;
+if(city==1)
+{
+window.location="hyundaip.html";
+return false;
+}
+if(city==2)
+{
+window.location="hyundaim.html";
+return false;
+}
+if(city==3)
+{
+window.location="hyundaiec.html";
+return false;
+}
+}
+</script>
+<body>
+<form name="f1" onchange="return abc();">
+sortby:
+<select name="c1">
+<option>Select</option>selected
+<option>price</option>
+<option>milage</option>
+</select>
+</form>
+<br>
+<br>
+<div class="e" >
+<table>
+  <tr>
+    <th>CarName</th>
+    <th> image </th>
+    <th>Price</th>
+      </tr>
+  <tr>
+    <td>EON</td>
+    <td><img src="Eon exe1.jpg"height="100px"></td>
+    <td><I>3.08L onwards</I></td>
+     </tr>
+  <tr>
+<td>HYUNDAI I10</td>
+    <td><img src="i10 exe1.jpg" height="100px"></td>
+    <td><I>4.15L onwards</I></td>
+    </tr>
+  <tr>
+<td>GRAND I10</td>
+    <td><img src="Greed exe1.jpg" height="100px"></td>
+    <td>4.65L onwards</td>
+      </tr>
+  <tr>
+<td>XCENT</td>
+    <td><img src="Xcent exe1.jpg" height="100px"></td>
+    <td>5.03L onwards</td>
+      </tr>
+  <tr>
+<td>ELITE I20</td>
+    <td><img src="Elite exe1.jpg" height="100px"></td>
+    <td>5.33L onwards</td>
+    </tr>
+  <tr>
+<td>I20 ACTIVE</td>
+    <td><img src="i20 exe1.jpg" height="100px"></td>
+    <td>6.46L onwards</td>
+      </tr>
+<tr>
+<td>VERNA</td>
+    <td><img src="Verna exe1.jpg" height="100px"></td>
+    <td>7.75L onwards</td>
+      </tr>
+<tr>
+<td>CRETA</td>
+    <td><img src="Creta exe1.jpg" height="100px"></td>
+    <td>9.15L onwards</td>
+      </tr>
+<tr>
+<td>ELANTRA</td>
+    <td><img src="Elentra exe1.jpg" height="100px"></td>
+    <td>12.99L onwards</td>
+      </tr>
+<tr>
+<td>SANTA FE</td>
+    <td><img src="Santafe exe1.jpg" height="100px"></td>
+    <td>26.87L onwards</td>
+      </tr>
+
+</table>
+</div>
+</div>
+</div>
+</body>
+</html>
